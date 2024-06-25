@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loja pessoal</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <section id="header_content">
+        <a href="#"
+          ><img
+            src="assets/images/logo/logo.png"
+            class="logo"
+            height="60"
+            alt=""
+        /></a>
+
+        <div>
+          <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html" class="active">Produtos</a></li>
+            <li><a href="contact.html">Contato</a></li>
+            <li>
+              <a href="cart.html" class="lg-bag"
+                ><i class="fa-solid fa-bag-shopping"></i
+              ></a>
+            </li>
+            <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+          </ul>
+        </div>
+
+        <div id="mobile">
+          <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+          <i id="toggle" class="fa-solid fa-bars"></i>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section id="product" class="section-p1">
+        <div class="product-img">
+          <img
+            src="assets/images/t-shirt/1.jpg"
+            width="100%"
+            id="main_img"
+            alt=""
+          />
+
+          <div class="product-img-group">
+            <div class="product-img-col">
+              <img
+                src="assets/images/t-shirt/10.jpg"
+                width="100%"
+                class="product-small-img"
+                alt=""
+              />
+            </div>
+            <div class="product-img-col">
+              <img
+                src="assets/images/t-shirt/5.jpg"
+                width="100%"
+                class="product-small-img"
+                alt=""
+              />
+            </div>
+            <div class="product-img-col">
+              <img
+                src="assets/images/t-shirt/1.jpg"
+                width="100%"
+                class="product-small-img"
+                alt=""
+              />
+            </div>
+            <div class="product-img-col">
+              <img
+                src="assets/images/t-shirt/1.jpg"
+                width="100%"
+                class="product-small-img"
+                alt=""
+              />
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="product-detail">
+          <h6>T-shirt</h6>
+          <h4>Cavalera</h4>
+          <h2>R$ 60,00</h2>
+          <select name="" id="">
+            <option value="">Selecione o tamanho</option>
+            <option value="">P <span>(L 47 - C 62)</span></option>
+            <option value="">M <span>(L 52 - C 66)</span></option>
+            <option value="">G <span>(L 56 - C 72)</span></option>
+            <option value="">GG <span>(L 60 - C 74)</span></option>
+          </select>
+          <legend style="font-size: 10px; color: #333">
+            L = Largura, C = Comprimento
+          </legend>
+          <input type="number" value="1" />
+          <button class="normal">Adicionar ao carrinho</button>
+          <h4>Detalhes do produto</h4>
+          <span
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea error
+            incidunt quas culpa sunt aliquid blanditiis eligendi ipsam deleniti
+            obcaecati eius sequi itaque id asperiores impedit hic, sed in,
+            perferendis nobis tempore aspernatur et cum esse veritatis.
+            Voluptatum ratione beatae, quasi omnis ducimus neque dolorum iusto,
+            excepturi debitis perspiciatis aliquam!</span
+          >
+        </div>
+      </section>
+
+      <section id="product1" class="section-p1">
+        <h2>Produtos em destaque</h2>
+        <p>Pólos, Regatas, Bermudas, Calças & MUITO mais!</p>
+        <div class="product-content">
+          
+          <div class="product">
+            <img src="assets/images/polo/5.jpg" />
+            <div class="product-description">
+              <span>Fundamental</span>
+              <h5>Camiseta pólo</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>R$80,00</h4>
+            </div>
+            <a href="#"
+              ><i class="fa-solid fa-shopping-cart cart-product"></i
+            ></a>
+          </div>
+          <!-- REGATA -->
+          <div class="product">
+            <img src="assets/images/regata/IMG-20240624-WA0011.jpg" />
+            <div class="product-description">
+              <span>Osklen</span>
+              <h5>Camiseta regata</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>R$50,00</h4>
+            </div>
+            <a href="#"
+              ><i class="fa-solid fa-shopping-cart cart-product"></i
+            ></a>
+          </div>
+          <!-- BERMUDAS -->
+          <div class="product">
+            <img src="assets/images/bermuda/1.jpg" />
+            <div class="product-description">
+              <span>Tommy Hilfeger</span>
+              <h5>Bermuda sarja</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>R$100,00</h4>
+            </div>
+            <a href="#"
+              ><i class="fa-solid fa-shopping-cart cart-product"></i
+            ></a>
+          </div>
+          <
+         <!-- CALÇA -->
+          <div class="product">
+            <img src="assets/images/calca/1.jpg" />
+            <div class="product-description">
+              <span>Lacoste</span>
+              <h5>Calça sarja</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>R$140,00</h4>
+            </div>
+            <a href="#"
+              ><i class="fa-solid fa-shopping-cart cart-product"></i
+            ></a>
+          </div>
+    </section>
+
+      <section id="newsletter" class="section-p1" class="section-m1">
+        <div class="newsnext">
+          <h4>inscrever-se para receber novidades</h4>
+          <p>
+            Receba por e-mail nossas
+            <span>ofertas especiais</span>
+          </p>
+        </div>
+        <div class="form">
+          <input type="text" placeholder="Digite seu email" />
+          <button class="normal">inscrever-se</button>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img src="assets/images/logo/logo.png" class="logo" alt="" />
+        <h4>Contatos</h4>
+        <p>
+          <strong>Endereço:</strong> Avenida Sergio Cardoso, Vila Nova - Vila
+          Velha/ES
+        </p>
+        <p><strong>Telefone:</strong> (27) 99999-9999</p>
+        <p><strong>Horário:</strong> 8:00 - 18h, Seg - Sab</p>
+        <div class="follow">
+          <h4>Siga nos</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>Sobre a DAP</h4>
+        <a href="#">Proposito</a>
+        <a href="#">Entregas e fretes</a>
+        <a href="#">Politica de privacidade</a>
+        <a href="#">Termos & condições</a>
+        <a href="#">Contate nos</a>
+      </div>
+
+      <div class="col">
+        <h4>Minha conta</h4>
+        <a href="#">inscrever-se</a>
+        <a href="#">Carrinho</a>
+        <a href="#">Favoritos</a>
+        <a href="#">Pedidos</a>
+        <a href="#">Fale conosco</a>
+      </div>
+
+      <div class="col install">
+        <h4>Instale o App</h4>
+        <p>App Store ou Google Play</p>
+        <div class="row">
+          <img src="assets/images/pay/app.jpg" alt="" />
+          <img src="assets/images/pay/play.jpg" alt="" />
+        </div>
+        <p>Formas de pagamento</p>
+        <img src="assets/images/pay/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>&copy 2024, Daniel Antunes</p>
+      </div>
+    </footer>
+
+    <script>
+        let mainImg = document.getElementById("main_img");
+        let smallImg = document.getElementsByClassName('product-small-img');
+
+        smallImg[0].onclick = function() {
+            mainImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function() {
+            mainImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function() {
+            mainImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function() {
+            mainImg.src = smallImg[3].src;
+        }
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
